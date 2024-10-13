@@ -7,7 +7,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Eventsdiv from '@/components/Eventsdiv';
 import NavigationTitle from '@/components/NavigationTitle';
 import About from '@/components/About';
-import footer from '@/components/footer';
+
+
 
 export default function App() {
   return (
@@ -89,15 +90,8 @@ export default function App() {
           <div className="w-full h-60"></div>
 
         </div>
-
-
-        <div>
-          <Infinityloop />
-        </div>
-        <div>
-          <footer/>
-        </div>
-
+        
+        
     </div>
     </>
     

@@ -1,0 +1,201 @@
+ [
+        {
+          "name": "Sparkathon",
+          "description": "A Collaborative event where participants work in teams to solve real-world challenges, focusing on Inclusion and innovation. It encourages creativity and technological innovation, providing a platform for individuals to work collectively on devising innovative solutions within a limited timeframe. It will be conducted in 2 rounds - Round 1 is online idea submission. Round 2 is a 12 hour offline hackathon.",
+          "date": {
+            "round1": "24/10/24",
+            "round2": "24/10/24"
+          },
+          "teamSize": "2-4 members",
+          "timings": "7am to 7pm",
+          "venue": "IT department, 1st floor lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Ganesh S",
+            "contact": "7305900924"
+          },
+          "contacts": ["Mahalakshmi", "Gopi"]
+        },
+        {
+          "name": "Code Flip",
+          "description": "Inverse Code challenges participants to analyze input-output patterns and deduce logic. In Round 1, they work with basic patterns, while Round 2 involves reverse engineering more complex patterns with added constraints. The event tests problem-solving and critical thinking skills.",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1-2 members",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IT department, 2nd floor lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Mahalakshmi B",
+            "contact": "9790840477"
+          }
+        },
+        {
+          "name": "Sequel",
+          "description": "SEQUEL is a SQL challenge that tests participants' DBMS skills. Round 1 features a quiz on DBMS and NoSQL with MCQs and basic SQL queries to shortlist candidates. In Round 2, participants solve story-based SQL queries of increasing difficulty, including joins, cursors, and triggers. Accuracy and speed determine the winners.",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1 member",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IT department, 2nd floor lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Aurnad Joe Nirmal",
+            "contact": "7395916834"
+          }
+        },
+        {
+          "name": "AI Arena",
+          "description": "Participants will be tested on ML and NLP skills in this two-tier competition with exciting challenges for both beginners and experts. The tasks will be revealed on the spot, pushing participants to think quickly and innovate. Price pool for each level.",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 12:30 PM",
+          "venue": "IST Department, 3rd Floor Lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Ganesh S",
+            "contact": "7305900924"
+          }
+        },
+        {
+          "name": "B Tech -Bingo",
+          "description": "In this fun and dynamic event, participants begin with a quiz testing their knowledge in Python, C, Data Structures, Operating Systems, and OOPs. In Round 2, teams tackle a Bingo grid filled with technical answers while one member balances a balloon. Team members alternate roles as they solve questions and mark answers on the grid. The team that forms Bingo with correct answers the fastest wins. It’s a thrilling mix of strategy, technical knowledge, and quick reflexes!",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 12:30 PM",
+          "venue": "IST Department, Ada Lovelace Auditorium",
+          "pricePool": "",
+          "poc": {
+            "name": "Gopi",
+            "contact": "9345754446"
+          }
+        },
+        {
+          "name": "WEB Dev Team",
+          "description": "",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 12:30 PM",
+          "venue": "IST Department, 1st Floor Lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Yuvaraj V",
+            "contact": "6374838188"
+          }
+        },
+        {
+          "name": "CSAU Event",
+          "description": "",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 12:30 PM",
+          "venue": "IST Department, 2nd Floor Lab (Annexure)",
+          "pricePool": "",
+          "poc": {
+            "name": "",
+            "contact": ""
+          }
+        },
+        {
+          "name": "ACM Event",
+          "description": "",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 12:30 PM",
+          "venue": "IST Department, 1st Floor Lab",
+          "pricePool": "",
+          "poc": {
+            "name": "",
+            "contact": ""
+          }
+        },
+        {
+          "name": "TalentQuest (recruitment by Codestax.Ai)",
+          "description": "This event offers an exciting mix of MCQs, aptitude tests, Data Structures and Algorithms (DSA), Database Management Systems (DBMS), and much more, designed to challenge your problem-solving abilities and technical knowledge.",
+          "date": {
+            "round1": "20/10/24",
+            "round2": "25/10/2024"
+          },
+          "teamSize": "N/A",
+          "timings": "9:00 AM to 2:00 PM",
+          "venue": "Conference Hall",
+          "pricePool": "",
+          "poc": {
+            "name": "Shreya Elizabeth Franklin",
+            "contact": ""
+          }
+        },
+        {
+          "name": "The Great Escape",
+          "description": "The Great Escape! is an exhilarating contest where teams test their wit and teamwork to crack a series of puzzles, riddles, and challenges. Participants must channel their problem-solving skills and strategic thinking to make their way through two thrilling rounds. The objective is simple—decipher the clues, solve the puzzles, and escape the room in the shortest time possible!",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1-2 members",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IT department, Ada Lovelace Auditorium",
+          "pricePool": "",
+          "poc": {
+            "name": "Hariharan P",
+            "contact": "9994458122"
+          }
+        },
+        {
+          "name": "Xplore",
+          "description": "In Campus Quest, teams will embark on an adventurous journey through the college, solving puzzles and following a series of clues to reach the hidden locations. Each clue will lead participants to a new spot within the campus, where they will need to perform small tasks or answer questions to unlock the next hint. This fast-paced treasure hunt tests participants' problem-solving skills, teamwork, and knowledge of the campus.",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1-2 members",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IT department, Info Desk",
+          "pricePool": "",
+          "poc": {
+            "name": "Hariharan P",
+            "contact": "9994458122"
+          }
+        },
+        {
+          "name": "Back To School",
+          "description": "Get ready to revisit your school days with the 'Back to School Quiz,' designed especially for first-year students! This fun event challenges you with questions from familiar subjects like math, science, and more. It's a great way to test your knowledge, connect with peers, and kick off your college journey with a nostalgic twist!",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1-2 members",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IT department, Ground Floor Classroom",
+          "pricePool": "",
+          "poc": {
+            "name": "Gopi",
+            "contact": "9345754446"
+          }
+        },
+        {
+          "name": "General Quiz (In Collaboration with QA)",
+          "description": "Dive into the ultimate knowledge challenge! Join us for our General Quiz where the questions span the spectrum - from history to art, movies to sports, and everything in between. Gather your team and put your brainpower to the test as you answer a range of thought-provoking questions.",
+          "date": {
+            "round1": "26/10/2024"
+          },
+          "teamSize": "1-2 members",
+          "timings": "9.00 AM To 12:30 PM",
+          "venue": "IST Department, 3rd Floor Lab",
+          "pricePool": "",
+          "poc": {
+            "name": "Gopi",
+            "contact": "9345754446"
+          }
+        }
+ 
+    ]

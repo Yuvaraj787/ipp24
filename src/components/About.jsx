@@ -23,7 +23,7 @@ export default function About() {
       {/* I++ Section */}
       <div className="flex-1 flex flex-col xl:flex-row">
       <div className="mx-4 flex justify-center items-center text-6xl text-indigo-700">
-          <p className='xl:hidden'>I++</p>
+          <p className='xl:hidden '>I++</p>
         </div>
         <div className="text-center mx-4 text-2xl text-gray-500">
           <p className=" leading-9 mx-4">
@@ -31,7 +31,7 @@ export default function About() {
           </p>
         </div>
         <div className="mx-4 flex justify-center items-center text-6xl text-indigo-700">
-          <p className='block xl:rotate-90'>I++</p>
+        <p className="hidden xl:block xl:rotate-90">I++</p>
         </div>
       </div>
     </div>
