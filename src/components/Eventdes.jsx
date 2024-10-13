@@ -24,7 +24,7 @@ export default function Eventdes({ visible, onClose, eventName }) {
     <div
       id="container"
       onClick={handleOnClose}
-      className="fixed top-0 h-full w-full bg-black bg-opacity-40 backdrop-blur-sm z-20 flex items-center justify-center"
+      className="fixed top-0 h-full w-full bg-black bg-opacity-50 backdrop-blur-sm z-20 flex items-center justify-center"
     >
       <div className="flex flex-col w-[75vw] h-[75vh] overflow-y-auto">
         <div className="flex justify-between items-center text-rose-500  text-4xl lg:text-5xl p-2 rounded-3xl">
