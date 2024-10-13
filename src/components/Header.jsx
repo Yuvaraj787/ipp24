@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <header className=" mx-10 sticky top-0 z-10 rounded-lg bg-gradient-to-r from-blue-950 via-fuchsia-500 to-blue-950 flex justify-between items-center">
+    <header className=" mx-2 lg:mx-10 sticky top-0 z-10 rounded-lg bg-gradient-to-r from-blue-950 via-fuchsia-500 to-blue-950 flex justify-between items-center">
       
       <div className="basis-1/3">
         <img src={logoLeft} alt="Left Image" className="mx-4 w-12 h-12 md:w-16 md:h-16" />

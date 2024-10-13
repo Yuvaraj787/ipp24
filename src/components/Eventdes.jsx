@@ -27,7 +27,7 @@ export default function Eventdes({ visible, onClose, eventName }) {
       className="fixed top-0 h-full w-full bg-black bg-opacity-40 backdrop-blur-sm z-20 flex items-center justify-center"
     >
       <div className="flex flex-col w-[75vw] h-[75vh] overflow-y-auto">
-        <div className="flex justify-between items-center text-orange-600  text-4xl lg:text-5xl p-2 rounded-3xl">
+        <div className="flex justify-between items-center text-rose-500  text-4xl lg:text-5xl p-2 rounded-3xl">
           <p className="text-4xl">{eventDetails ? eventDetails.name : "Event"}</p>
           <button onClick={onClose} className="text-3xl lg:text-4xl text-white hover:text-red-800 transition duration-300"><FaTimes size={30}/></button>
         </div>
@@ -37,27 +37,27 @@ export default function Eventdes({ visible, onClose, eventName }) {
               <p>{eventDetails.description}</p>
               <br />
               <p>
-                <strong className="text-orange-500">Date:</strong> Round 1 (Online submission): {eventDetails.date.round1}<br />
+                <strong className="text-rose-500">Date:</strong> Round 1 (Online submission): {eventDetails.date.round1}<br />
                 Round 2 (Offline hackathon): {eventDetails.date.round2}
               </p>
               <p>
-                <strong className="text-orange-500">Team Size:</strong> {eventDetails.teamSize}.
+                <strong className="text-rose-500">Team Size:</strong> {eventDetails.teamSize}.
               </p>
               <p>
-                <strong className="text-orange-500">Timings:</strong> {eventDetails.timings}.
+                <strong className="text-rose-500">Timings:</strong> {eventDetails.timings}.
               </p>
               <p>
-                <strong className="text-orange-500">Venue:</strong> {eventDetails.venue}
+                <strong className="text-rose-500">Venue:</strong> {eventDetails.venue}
               </p>
               <p>
-                <strong className="text-orange-500" >Price Pool:</strong> {eventDetails.pricePool}
+                <strong className="text-rose-500" >Price Pool:</strong> {eventDetails.pricePool}
               </p>
               <p>
-                <strong className="text-orange-500" >POC:</strong> {eventDetails.poc.name} {eventDetails.poc.contact}
+                <strong className="text-rose-500" >POC:</strong> {eventDetails.poc.name} {eventDetails.poc.contact}
               </p>
               {eventDetails.contacts && eventDetails.contacts.length > 0 && (
                 <p>
-                  <strong className="text-orange-500">Contact:</strong> {`${eventDetails.contacts[0]}, ${eventDetails.contacts[1]}`}
+                  <strong className="text-rose-500">Contact:</strong> {`${eventDetails.contacts[0]}, ${eventDetails.contacts[1]}`}
                 </p>
               )}
 
