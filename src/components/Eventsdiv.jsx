@@ -28,7 +28,7 @@ export default function Eventsdiv() {
       
       className=' mx-8 absolute min-h-[95vh] w-[93vw]'/>
 
-    <div className='flex items-center min-h-[90vh] w-[90vw] justify-center  bg-transparent backdrop-blur-2xl z-10 px-8 py-10 rounded-lg border-gray-700 text-black text-6xl '>
+    <div className='flex items-center min-h-[90vh] w-[90vw] justify-center  bg-transparent backdrop-blur-2xl  px-8 py-10 rounded-lg border-gray-700 text-black text-6xl '>
       <div className="flex flex-row space-x-40">
         <div className="w-[30vw] h-[70vh]  border-slate-900 border-8">
           this content 1

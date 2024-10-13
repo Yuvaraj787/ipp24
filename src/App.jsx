@@ -19,21 +19,21 @@ export default function App() {
     <div className='flex flex-col gap-6'>
 
 
-      <div className='flex items-center justify-center min-h-[100vh]'>
+      <div className='mx-10 my-6 flex items-center justify-center min-h-[100vh]'>
         <img
             src={frontImage}
             alt="Center Image"
             
-            className=' mx-8 absolute h-[85vh] w-[93vw]'/>
+            className=' absolute h-[93vh] w-[93vw]'/>
 
-        <div className='flex items-center justify-center bg-transparent backdrop-blur-2xl w-[75vw] h-[70vh] px-8 py-10 rounded-full border-2 border-slate-500 text-black text-center text-9xl shadow-lg'>
+        <div className='flex items-center justify-center bg-transparent backdrop-blur-2xl md:w-[75vw] w-[70vw] md:h-[70vh] h-[60vh] px-8 py-8 md:py-10 rounded-3xl border-2 border-slate-500 text-black text-center text-9xl shadow-lg'>
          
              <pre>
-            <h className="text-blue-600 font-display font-bold drop-shadow-sm">I<span className='text-9xl'>++</span> 24</h>
+            <h className="text-blue-600  text-8xl md:text-9xl font-display font-bold drop-shadow-sm">I<span className='text-8xl md:text-9xl'>++</span> 24</h>
             {"\n"}
               <h1
-                class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-8xl font-bold font-display
-                bg-gradient-to-r from-teal-400 to-fuchsia-500  text-transparent bg-clip-text
+                class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 font-bold font-display
+                bg-gradient-to-r from-teal-400 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl to-fuchsia-500  text-transparent bg-clip-text
                 ">
                 Iterate to Infintiy...
               </h1>
@@ -74,13 +74,13 @@ export default function App() {
           <div>
 
             <div className="mt-4 flex justify-center ">
-              <a href="#" className="mx-6 border-blue-500 p-2 bg-white rounded-full border-2 text-blue-500">
+              <a href="#" className="mx-4 md:mx-6 border-blue-500 p-2 bg-white rounded-full border-2 text-blue-500">
                 <FaFacebook size={50}  />
               </a>
-              <a href="#"  className="mx-6  border-blue-400 p-2 bg-white rounded-full border-2 text-blue-400">
+              <a href="#"  className="mx-4 md:mx-6  border-blue-400 p-2 bg-white rounded-full border-2 text-blue-400">
                 <FaTwitter size={50} />
               </a>
-              <a href="#"  className="mx-6  border-pink-500 p-2 bg-white rounded-full border-2 text-pink-500">
+              <a href="#"  className="mx-4 md:mx-6  border-pink-500 p-2 bg-white rounded-full border-2 text-pink-500">
                 <FaInstagram size={50} />
               </a>
             </div>
@@ -90,6 +90,10 @@ export default function App() {
 
         </div>
 
+
+        <div>
+          <Infinityloop />
+        </div>
         <div>
           <footer/>
         </div>
