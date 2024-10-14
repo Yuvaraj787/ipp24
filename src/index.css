@@ -5,8 +5,9 @@
 
 body {
   margin: 0;                      
-  background-color: black;      
-  color: white;   
+  background-color: rgb(13, 17, 23);      
+  color: white;  
+
   @apply font-display;
   @apply tracking-wide;               
 }
