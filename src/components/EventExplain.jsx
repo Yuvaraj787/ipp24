@@ -1,4 +1,4 @@
-import React from 'react'
+import { FaCalendarAlt, FaClock, FaMapMarkerAlt, FaDollarSign, FaUsers, FaPhoneAlt } from 'react-icons/fa';
 
 export default function EventExplain() {
   return (
@@ -22,30 +22,38 @@ export default function EventExplain() {
             </div>
             <div className='flex flex-row justify-center gap-4'>
                 <div>
-                    <div className='text-2xl text-rose-400'>
-                        Date:<span className='text-2xl text-fuchsia-500'>26/10/2024</span>
-                    </div>
-                    <div className='text-2xl text-rose-400'>
-                        Venue:<span className='text-2xl text-fuchsia-500'>IT department, 2 floor lab</span>
-                    </div>
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaCalendarAlt />
+                    <span className='text-2xl text-fuchsia-500'>26/10/2024</span>
+                </div>
 
-                    <div className='text-2xl text-rose-400'>
-                        Timings:<span className='text-2xl text-fuchsia-500'>9:00AM - 10:30AM</span>
-                    </div>
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaMapMarkerAlt />
+                    <span className='text-2xl text-fuchsia-500'>IT department, 2nd floor lab</span>
+                </div>
+
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaClock />
+                    <span className='text-2xl text-fuchsia-500'>9:00AM - 10:30AM</span>
+                </div>
+
                 </div>
                 <div>
-                    <div className='text-2xl text-rose-400'>
-                        Team size:<span className='text-2xl text-fuchsia-500'>2 Members</span>
-                    </div>
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaUsers />
+                    <span className='text-2xl text-fuchsia-500'>2 Members</span>
+                </div>
 
-                    <div className='text-2xl text-rose-400'>
-                        Price pool:<span className='text-2xl text-fuchsia-500'>3K</span>
-                    </div>
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaDollarSign />
+                    <span className='text-2xl text-fuchsia-500'>3K</span>
+                </div>
 
-                    <div className='text-2xl text-rose-400'>
-                        POC:<span className='text-2xl text-fuchsia-500'>event deptuy - 0976548976</span>
-                    </div>
-                    </div>
+                <div className='flex items-center space-x-4 text-2xl text-rose-400'>
+                    <FaPhoneAlt />
+                    <span className='text-2xl text-fuchsia-500'>event deputy - 0976548976</span>
+                </div>
+                </div>
                 
             </div>
         </div>
