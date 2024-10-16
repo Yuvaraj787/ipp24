@@ -32,7 +32,7 @@ export default function Eventslanding() {
           </button> */}
             <a
               href="#" onClick={handleClick}
-              className="bg-transparent mr-auto hover:bg-blue-300 text-2xl text-fuchsia-600 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-blue-300 hover:border-transparent"
+              className="bg-transparent mr-auto hover:bg-purple-400 text-2xl text-fuchsia-600 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-blue-300 hover:border-transparent"
             >
               Explore More
             </a>
