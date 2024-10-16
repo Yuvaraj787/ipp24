@@ -8,6 +8,7 @@ import Eventsdiv from "@/components/Eventsdiv";
 import NavigationTitle from "@/components/NavigationTitle";
 import About from "@/components/About";
 import Triangles from "@/components/Triangles";
+import Eventslanding from "@/components/Eventslanding";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -66,12 +67,8 @@ export default function Home() {
         {/* Events Section */}
         <section>
           <NavigationTitle title="EVENTS" />
-          <button
-            onClick={handleClick}
-            className="mt-4 p-2 bg-blue-500 text-white rounded"
-          >
-            Go to Events Page
-          </button>
+          <Eventslanding />
+          
         </section>
 
         {/* Contact Section */}
