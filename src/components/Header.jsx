@@ -3,13 +3,13 @@ import logoLeft from '@/assets/ist_logo.png';
 import logoCenter from '@/assets/i++24Logo.png';
 
 export default function Header() {
-  const [isLg, setIsLg] = useState(window.innerWidth >= 1024); // Adjust the breakpoint as needed
+  const [isLg, setIsLg] = useState(window.innerWidth >= 768); // Adjust the breakpoint as needed
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsLg(window.innerWidth >= 1024);
-      if (window.innerWidth >= 1024) {
+      setIsLg(window.innerWidth >= 768);
+      if (window.innerWidth >= 768) {
         setDropdownOpen(false);
       }
     };
@@ -28,17 +28,17 @@ export default function Header() {
     <header className="sticky top-0 z-50  bg-gradient-to-r from-[#151b23] via-blue-950 to-[#151b23] flex justify-between items-center">
       
       <div className="basis-1/3">
-        <img src={logoLeft} alt="Left Image" className="mx-4 w-12 h-12 md:w-16 md:h-16" />
+        <img src={logoLeft} alt="Left Image" className="mx-4 w-12 h-12 md:w-13 md:h-13" />
       </div>
 
       <div className="basis-1/3">
-        <img src={logoCenter} alt="Center Image" className=" w-28 h-24 md:w-48 md:h-28 mx-auto" />
+        <img src={logoCenter} alt="Center Image" className=" w-28 h-24 md:w-23 md:h-26 mx-auto" />
       </div>
 
       <nav className="basis-1/3 relative flex justify-end">
         {/* Regular Navigation for Large Screens */}
         {isLg ? (
-          <ul className="sm:visible my-3 flex text-white text-2xl gap-6 px-4 flex-row">
+          <ul className="sm:visible  flex text-white text-2xl gap-8 px-4 flex-row">
             <li className="p-2"><a href="#">Home</a></li>
             <li className="p-2"><a href="#">About</a></li>
             <li className="p-2"><a href="#">Events</a></li>

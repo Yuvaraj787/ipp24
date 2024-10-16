@@ -20,7 +20,7 @@ export default function Home() {
 
   // Simulate loading time
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000); // 3 seconds for demo purposes
+    setTimeout(() => setLoading(false), 300); 
   }, []);
 
 
@@ -47,10 +47,9 @@ export default function Home() {
               <Triangles />
             </div>{" "}
             <pre>
-              <h1 className="text-blue-600 text-8xl md:text-9xl font-display font-bold drop-shadow-sm">
+              <h1 className="text-blue-600 text-7xl md:text-9xl font-display font-bold drop-shadow-sm">
                 I<span className="text-8xl md:text-9xl">++</span> 24
               </h1>
-              {"\n"}
               <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 font-bold font-display bg-gradient-to-r from-teal-400 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl to-fuchsia-500 text-transparent bg-clip-text">
                 Iterate to Infinity...
               </h1>
