@@ -21,10 +21,8 @@ export default function Home() {
 
   // Simulate loading time
   useEffect(() => {
-    setTimeout(() => setLoading(false), 300); 
+    setTimeout(() => setLoading(false), 300);
   }, []);
-
-
 
   if (loading) {
     return (
@@ -58,21 +56,17 @@ export default function Home() {
           </div>
         </div>
 
-        {/* About Section */}
-        <section ref={aboutRef} >
+        <section id="about" ref={aboutRef}>
           <NavigationTitle title="ABOUT" />
           <About />
         </section>
 
-        {/* Events Section */}
-        <section>
+        <section id="events">
           <NavigationTitle title="EVENTS" />
           <Eventslanding />
-          
         </section>
 
-        {/* Contact Section */}
-        <section>
+        <section id="contact">
           <NavigationTitle title="CONTACT" />
           <div className="mt-4 flex justify-center">
             <a

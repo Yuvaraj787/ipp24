@@ -1,4 +1,8 @@
 import { FaCalendarAlt, FaClock, FaMapMarkerAlt, FaDollarSign, FaUsers, FaPhoneAlt } from 'react-icons/fa';
+import NavigationTitle from './NavigationTitle';
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import React from 'react'
+
 
 export default function EventExplain() {
   return (
@@ -6,7 +10,7 @@ export default function EventExplain() {
     <div className='flex flex-col bg-black mx-8'>
       <div className='flex flex-row justify-center mx-10 items-center gap-16'>
         <div className='border-2 basis-1/3 bg-slate-300 text-black h-[60vh] w-[25vw]'>
-        <div className=' flex flex-col justify-center items-center text-6xl'>
+        <div className=' flex flex-col justify-center items-center text-4xl'>
             <div>Hackthon</div>
             <div>Details</div>
         </div>
@@ -57,8 +61,31 @@ export default function EventExplain() {
                 
             </div>
         </div>
-        
+       
       </div>
+      <section id="contact">
+          <NavigationTitle title="CONTACT" />
+          <div className="mt-4 flex justify-center">
+            <a
+              href="#"
+              className="mx-4 md:mx-6 border-blue-500 p-2 bg-white rounded-full border-2 text-blue-500"
+            >
+              <FaFacebook size={50} />
+            </a>
+            <a
+              href="#"
+              className="mx-4 md:mx-6 border-blue-400 p-2 bg-white rounded-full border-2 text-blue-400"
+            >
+              <FaTwitter size={50} />
+            </a>
+            <a
+              href="#"
+              className="mx-4 md:mx-6 border-pink-500 p-2 bg-white rounded-full border-2 text-pink-500"
+            >
+              <FaInstagram size={50} />
+            </a>
+          </div>
+        </section>
       </div>
     </>
   )
