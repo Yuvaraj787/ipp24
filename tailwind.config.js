@@ -8,7 +8,7 @@ export default {
     
       extend: { 
         fontFamily: {
-          display: ["'Oswald'", "sans-serif"], 
+          display: ["'Montserrat'", "sans-serif"], 
         },
 
       keyframes: {

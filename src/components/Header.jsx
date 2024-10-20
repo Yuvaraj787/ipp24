@@ -32,17 +32,20 @@ export default function Header() {
       navigate('/');
       setTimeout(() => {
         document.getElementById("about")?.scrollIntoView({ behavior: 'smooth' });
-      }, 100); // Small delay to ensure smooth navigation
+      }, 100);
     } else {
       navigate("/events");
     }
   };
 
   const handleAboutClick = () => {
-    if (location.pathname === "/events") {
-      navigate('/')
-    } else {
+    if (location.pathname === "/") {
       document.getElementById("about")?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      navigate('/');
+      setTimeout(() => {
+        document.getElementById("about")?.scrollIntoView({ behavior: 'smooth' });
+      }, 100); 
     }
   };
 
@@ -59,11 +62,11 @@ export default function Header() {
 
       <nav className="basis-1/3 relative flex justify-end">
         {isLg ? (
-          <ul className="sm:visible flex text-white text-2xl gap-8 px-4 flex-row">
-            <li className="p-2"><a onClick={() => navigate('/')}>Home</a></li>
-            <li className="p-2"><a onClick={handleAboutClick}>About</a></li>
-            <li className="p-2"><a onClick={handleEventsClick}>Events</a></li>
-            <li className="p-2"><a href="#contact">Contact</a></li>
+          <ul className="sm:visible flex text-white text-1xl gap-8 px-4 flex-row font-semibold">
+            <li className="p-2 cursor-pointer"><a onClick={() => navigate('/')}>Home</a></li>
+            <li className="p-2 cursor-pointer"><a onClick={handleAboutClick}>About</a></li>
+            <li className="p-2 cursor-pointer"><a onClick={handleEventsClick}>Events</a></li>
+            <li className="p-2 cursor-pointer"><a href="#contact">Contact</a></li>
           </ul>
         ) : (
           <>
@@ -72,10 +75,10 @@ export default function Header() {
             </button>
             {isDropdownOpen && (
               <ul className="absolute right-0 mt-20 bg-white text-black shadow-lg rounded-lg z-10">
-                <li className="p-2 hover:bg-gray-200"><a onClick={() => navigate('/')}>Home</a></li>
-                <li className="p-2 hover:bg-gray-200"><a onClick={handleAboutClick}>About</a></li>
-                <li className="p-2 hover:bg-gray-200"><a onClick={handleEventsClick}>Events</a></li>
-                <li className="p-2 hover:bg-gray-200"><a href="#contact">Contact</a></li>
+                <li className="p-2 hover:bg-gray-200 cursor-pointer"><a onClick={() => navigate('/')}>Home</a></li>
+                <li className="p-2 hover:bg-gray-200 cursor-pointer"><a onClick={handleAboutClick}>About</a></li>
+                <li className="p-2 hover:bg-gray-200 cursor-pointer"><a onClick={handleEventsClick}>Events</a></li>
+                <li className="p-2 hover:bg-gray-200 cursor-pointer"><a href="#contact">Contact</a></li>
               </ul>
             )}
           </>

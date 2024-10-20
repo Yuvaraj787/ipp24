@@ -42,11 +42,11 @@ export default function Eventslanding() {
               <div className="relative wrap overflow-hidden p-10 h-full">
                 <div
                   className="border-2-2 border-blue-555 absolute h-full border"
-                  style={{ right: '50%', border: '2px solid #2822f0', borderRadius: '1%' }}
+                  style={{ right: '50%', border: '2px solid #3b82f6', borderRadius: '1%' }}
                 ></div>
                 <div
                   className="border-2-2 border-blue-555 absolute h-full border"
-                  style={{ left: '50%', border: '2px solid #2822f0', borderRadius: '1%' }}
+                  style={{ left: '50%', border: '2px solid #3b82f6', borderRadius: '1%' }}
                 ></div>
 
                 {/* Event Category: Hackathon */}
