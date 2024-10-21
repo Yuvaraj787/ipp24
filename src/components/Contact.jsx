@@ -27,9 +27,9 @@ function Contact() {
 
 
       {/* Contact Cards */}
-      <div className="flex flex-row justify-center gap-32">
+      <div className="flex sm:flex-row  flex-col justify-center sm:gap-24 gap-10">
         {contacts.map((contact, index) => (
-          <div key={index} className="border p-4 rounded-lg flex max-w-96 min-w-72 gap-12 justify-between items-center">
+          <div key={index} className="border p-4 rounded-lg flex max-w-96 gap-12 justify-between items-center">
             <div>
               <p className="font-bold text-lg">{contact.name}</p>
               <p>{contact.title}</p>
