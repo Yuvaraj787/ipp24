@@ -19,11 +19,11 @@ export default function Events() {
   return (
     <div>
       <Header />
-      <h1 className='text-rose-300 text-center text-5xl mt-6'>Our Events - 2024</h1>
+      <h1 className='text-blue-500 text-center text-5xl mt-6'>Our Events - 2024</h1>
       <NavigationTitle title="Tech Events" />
       
-      {/* Mapping through events and passing event data as props */}
-      <div className='flex flex-col gap-5'>
+
+      <div className='flex flex-row gap-5 flex-wrap justify-center'>
         {events.map(event => (
           <EventExplain
             key={event.id}
