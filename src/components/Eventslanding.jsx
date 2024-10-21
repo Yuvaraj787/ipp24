@@ -53,7 +53,7 @@ export default function Eventslanding() {
                 <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
-                    <p className="mb-3 text-2xl text-fuchsia-600">Hackathon</p>
+                    <p className="mb-3 text-2xl text-fuchsia-600 ">Hackathon</p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">Showcase Your Coding Skills</h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                       Participate in the hackathon and build exciting projects in a competitive environment. Bring your ideas to life!
