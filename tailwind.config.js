@@ -8,7 +8,8 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-  			display: ["'Montserrat'", "sans-serif"],
+			// display: ["'Montserrat'", "sans-serif"],
+  			display: ["'Aldrich'", "sans-serif"],
   		},
   		keyframes: {
   			typing: {

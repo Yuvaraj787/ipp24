@@ -22,6 +22,7 @@ export default function Home() {
   // Simulate loading time
   useEffect(() => {
     setTimeout(() => setLoading(false)); 
+    document.title = "I++ | Home";
   }, []);
 
 

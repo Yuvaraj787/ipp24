@@ -41,8 +41,8 @@ export default function EventExplain({
           </DialogTrigger>
   
 
-        <DialogContent className=' bg-gray-500 '>
-          <div className="flex flex-col border-2 rounded-2xl text-black p-4">
+        <DialogContent className=' bg-gray-900 '>
+          <div className="flex flex-col border-2 rounded-3xl text-black p-7">
             <div className="text-2xl text-teal-400 mb-4">{description}</div>
             <div className="flex flex-row justify-center gap-8">
               <div>
