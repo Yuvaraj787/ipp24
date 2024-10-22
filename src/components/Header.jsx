@@ -55,7 +55,7 @@ export default function Header() {
       {isLg ? (
       <header className="sticky top-0 z-50 bg-gradient-to-r from-[#151b23] via-blue-950 to-[#151b23] flex justify-between items-center">
       <div className="basis-1/3">
-        <img src={logoLeft} alt="Left Image" className="mx-4 w-12 h-12 md:w-13 md:h-13 cursor-help"  onClick={() => window.open('https://istaceg.in', '_blank')}  />
+        <img src={logoLeft} alt="Left Image" className="mx-4 w-12 h-12 md:w-14 md:h-14 cursor-help"  onClick={() => window.open('https://istaceg.in', '_blank')}  />
       </div>
 
       <div className="basis-1/3">
