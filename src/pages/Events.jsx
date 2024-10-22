@@ -23,7 +23,7 @@ export default function Events() {
       <NavigationTitle title="Tech Events" />
       
 
-      <div className='flex flex-row gap-5 flex-wrap justify-center mx-2'>
+      <div className='flex flex-row gap-5 flex-wrap justify-center mx-2 '>
         {events.map(event => (
           <EventExplain
             key={event.id}

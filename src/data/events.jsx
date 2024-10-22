@@ -32,7 +32,7 @@ export let events=[{
 },
 {
     "id": 3,
-    "name": "TalentQuest (recruitment by Codestax.Ai)",
+    "name": "TalentQuest (by Codestax.Ai)",
     "date": "26/10/2024",
     "location": "IT department, 2nd floor lab",
     "time": "9:00AM - 10:30AM",

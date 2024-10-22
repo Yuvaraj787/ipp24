@@ -32,8 +32,8 @@ export default function EventExplain({
      
        
           <DialogTrigger asChild >
-            <div className="flex flex-col justify-center items-center cursor-pointer sm:w-1/5 bg-gray-500 rounded-lg p-3">
-              <img src={ippLogo} alt="event" width={300} height={300}/>
+            <div className="flex flex-col justify-center items-center cursor-pointer sm:w-3/12 max-w-[90%] bg-gray-500 rounded-lg p-3">
+              <img src={ippLogo} alt="event" width={300} height={350}/>
               <div>
               <p className="text-xl w-full text-center">{title}</p>
               </div>
