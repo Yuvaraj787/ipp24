@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import logoLeft from '@/assets/ist_logo.png'; 
-import logoCenter from '@/assets/i++24Logo.png';
+import logoCenter from '@/assets/ipp-white.png';
 
 export default function Header() {
   const [isLg, setIsLg] = useState(window.innerWidth >= 768); 
