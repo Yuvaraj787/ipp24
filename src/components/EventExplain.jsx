@@ -82,14 +82,14 @@ export default function EventExplain({
             </div>
             {registerLink && (
               <div className="mt-4 text-center">
-                <a
+                {/* <a
                   href={registerLink}
                   className="text-lg text-blue-500 underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Register Here
-                </a>
+                </a> */}
               </div>
             )}
           </div>
