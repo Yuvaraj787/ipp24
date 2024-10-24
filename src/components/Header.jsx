@@ -65,7 +65,11 @@ export default function Header() {
       <nav className="basis-1/3 relative flex justify-end">
         
           <ul className="flex text-white text-1xl gap-8 px-4 flex-row font-semibold">
-            <li className="p-2 hover:text-slate-200 cursor-pointer" onClick={() => navigate('/')}>Home</li>
+            <li className="p-2 hover:text-slate-200 cursor-pointer" onClick={() => {navigate('/') ;
+            setTimeout(() => {
+              document.getElementById("home")?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+            }}>Home</li>
             <li className="p-2 hover:text-slate-200 cursor-pointer" onClick={handleAboutClick}>About</li>
             <li className="p-2 hover:text-slate-200 cursor-pointer" onClick={handleEventsClick}>Events</li>
             <li className="p-2 hover:text-slate-200 cursor-pointer"><a href="#contact">Contact</a></li>

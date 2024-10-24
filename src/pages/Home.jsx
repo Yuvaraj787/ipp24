@@ -13,19 +13,17 @@ import Contact from "@/components/Contact";
 export default function Home() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
-  const aboutRef = useRef(null); 
+  const aboutRef = useRef(null);
 
   const handleClick = () => {
-    navigate("/events"); 
+    navigate("/events");
   };
 
   // Simulate loading time
   useEffect(() => {
-    setTimeout(() => setLoading(false)); 
+    setTimeout(() => setLoading(false), 1000); // Added delay to simulate loading
     document.title = "I++ | Home";
   }, []);
-
-
 
   if (loading) {
     return (
@@ -39,7 +37,7 @@ export default function Home() {
     <>
       <Header />
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6" id="home">
         {/* Hero Section */}
         <div className="flex items-center justify-center min-h-[100vh] relative">
           {/* Uncomment to add a background image */}
@@ -47,12 +45,12 @@ export default function Home() {
           <div className="flex items-center justify-center bg-[#151b23] backdrop-blur-2xl md:w-[100vw] w-[100vw] md:h-[100vh] h-[100vh] px-8 py-8 md:py-10 border-slate-700 text-black text-center text-9xl shadow-lg z-10">
             <div className="overflow-hidden h-[100%] w-full fixed">
               <Triangles />
-            </div>{" "}
+            </div>
             <pre>
               <h1 className="text-blue-600 text-7xl md:text-9xl font-display font-bold drop-shadow-sm">
                 I<span className="text-8xl md:text-9xl">++</span> 24
               </h1>
-              <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white  font-bold font-display bg-gradient-to-r from-teal-400 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl to-fuchsia-500 text-transparent bg-clip-text">
+              <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white font-bold font-display bg-gradient-to-r from-teal-400 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl to-fuchsia-500 text-transparent bg-clip-text">
                 Iterate to Infinity...
               </h1>
             </pre>
@@ -60,7 +58,7 @@ export default function Home() {
         </div>
 
         {/* About Section */}
-        <section ref={aboutRef} >
+        <section ref={aboutRef} id="about">
           <NavigationTitle title="ABOUT" />
           <About />
         </section>
@@ -69,12 +67,12 @@ export default function Home() {
         <section>
           <NavigationTitle title="EVENTS" />
           <Eventslanding />
-          
         </section>
 
-        <section>
+        {/* Contact Section */}
+        <section id="contact">
           <NavigationTitle title="CONTACT" />
-          <Contact/>
+          <Contact />
         </section>
 
         <div className="w-full h-60"></div>
