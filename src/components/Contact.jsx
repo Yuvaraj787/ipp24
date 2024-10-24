@@ -8,12 +8,12 @@ function Contact() {
     {
       name: 'Sanmitha',
       title: 'Chairperson',
-      phoneNumber: '+919876543210',
+      phoneNumber: '+919363200587',
     },
     {
       name: 'Aruna',
       title: 'Overall Coordinator',
-      phoneNumber: '+91987653210',
+      phoneNumber: '+916369427060',
     },
  
   ];
@@ -61,7 +61,7 @@ function Contact() {
           <FaInstagram size={40} />
         </a>
         <a
-          href="mailto:istaceg@gmail.com"
+          href="mailto:ista@auist.in"
             target="_blank"
           className="border-blue-500 p-3 bg-white rounded-full border-2 text-blue-500"
         >
