@@ -27,7 +27,7 @@ export default function About() {
         </div>
         <div className="text-center mx-4 text-2xl text-gray-400">
           <p className=" leading-9 mx-4">
-            Held every year in the odd semester, I++ is the intra-department symposium held by ISTA. With a footfall of about 800 odd students every year, we strive hard to do our part in bringing together the student community of not just our department, but the entire community at the College of Engineering, Guindy.
+            Held every year in the odd semester, I++ is the intra-college symposium held by ISTA. With a footfall of about 800 odd students every year, we strive hard to do our part in bringing together the student community of not just our department, but the entire community at the College of Engineering, Guindy.
           </p>
         </div>
         <div className="mx-4 flex justify-center items-center text-6xl text-indigo-700">

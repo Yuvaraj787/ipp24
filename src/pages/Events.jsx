@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function Events() {
  
-    document.title = 'ISTA | Events';
+    document.title = 'I++ | Events';
 
   
 
@@ -19,8 +19,8 @@ export default function Events() {
   return (
     <div>
       <Header />
-      <h1 className='text-blue-500 text-center sm:text-3xl text-2xl mt-6'>Our Events - 2024</h1>
-      <NavigationTitle title="Tech Events" />
+      {/* <h1 className='text-blue-500 text-center sm:text-3xl text-2xl mt-6'>Our Events - 2024</h1> */}
+      <NavigationTitle title="Our Events-2024" />
       
 
       <div className='flex flex-row gap-5 flex-wrap justify-center mx-2 '>
